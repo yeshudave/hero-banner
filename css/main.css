@@ -1,8 +1,51 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 1em;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+p {
+  display: inline-block;
+  font-size: 2rem;
+  font-style: italic;
+  position: absolute;
+  bottom: 8em;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.body {
+  max-width: 50em;
+}
+
+header {
+  position: relative;
 }
